@@ -1,0 +1,30 @@
+{
+    "author": {
+        "name": "René André IT-Services GmbH",
+        "email": "info@raits.gmbh",
+        "url": "https://raits.gmbh/"
+    },
+    "publisher": "raits",
+    "repository": {
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-java-development"
+    },
+    "license": "MIT",
+    "name": "java-extensions",
+    "displayName": "Java Development Extension Pack",
+    "description": "Extensions related to java development",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+      "raits"
+    ],
+    "extensionPack": [ 
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "coenraads.bracket-pair-colorizer"
+    ]
+}
